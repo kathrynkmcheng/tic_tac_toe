@@ -1,0 +1,42 @@
+body {
+  background-color: #f7d0cb;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Caveat Brush', cursive;
+  color: #313131;
+  text-align: center;
+  font-size: 60px;
+}
+
+/*Tic Tac Toe Table*/
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+  border: 4px solid #e3e4e6;
+}
+
+td {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 25px;
+  padding: 50px;
+  text-align: center;
+  color: #313131;
+  height: 35px;
+  width: 35px;
+}
+
+#board {
+  display: inline-block;
+}
+
+/*Message*/
+
+#alert {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 40px;
+}
